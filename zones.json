@@ -1,0 +1,31 @@
+{
+  "_note": "Coordinates are in DISPLAY pixels (after DISPLAY_SCALE applied). Run calibrate_zones.py to auto-generate from your video resolution.",
+  "_calibration": "Default assumes 1280x720 source @ 0.75 scale = 960x540 display",
+
+  "zones": [
+    {
+      "name": "Intersection",
+      "polygon": [[280, 160], [680, 160], [680, 380], [280, 380]],
+      "speed_limit_px": 18,
+      "loiter_sec": 8,
+      "intrusion": false,
+      "color": [0, 165, 255]
+    },
+    {
+      "name": "Crosswalk",
+      "polygon": [[100, 390], [860, 390], [860, 460], [100, 460]],
+      "speed_limit_px": 10,
+      "loiter_sec": 0,
+      "intrusion": true,
+      "color": [0, 255, 180]
+    },
+    {
+      "name": "No-Entry",
+      "polygon": [[760, 40], [900, 40], [900, 160], [760, 160]],
+      "speed_limit_px": 0,
+      "loiter_sec": 0,
+      "intrusion": true,
+      "color": [0, 50, 220]
+    }
+  ]
+}
