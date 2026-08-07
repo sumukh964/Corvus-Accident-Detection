@@ -1,4 +1,4 @@
-# 🚦 Corvus – AI-Based Accident Detection System
+# 🚦 Corvus – Collision Onset Recognition via Vehicular Unified Surveillance
 
 Corvus is a computer vision project that detects road accidents in real time using AI. It uses YOLO for vehicle detection, tracks vehicle movement, analyzes their behavior, and generates alerts when an accident is detected.
 
